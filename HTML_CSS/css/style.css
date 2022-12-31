@@ -1,0 +1,166 @@
+/* TITRE MENU */
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* MENU */
+
+#menu {
+    margin-left: auto;
+}
+
+
+
+/* LOGO */
+
+#logo {
+    height: 37px;
+}
+
+
+@media screen and (max-width: 434px) {
+    #logo {
+    height: 23px;
+    }
+}
+
+    
+@media screen and (min-width: 768px) {
+    #logo {
+        display: none;
+    }
+
+}
+
+    
+
+
+/* TAILLE POLICE TITRE MENU PETIT ECRAN */
+@media screen and (max-width: 434px) {
+    .navbar-brand{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+   
+/* ENTÊTE - BANNIERE */
+header {
+    margin-top: 53px;
+    background-color: #d0ba64;
+}
+
+@media screen and (max-width: 767px) {
+    #banniere {
+        display: none;
+    }
+}
+
+
+
+
+
+/* TITRES PAGE ET FORMULAIRE */
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 77px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+
+}
+
+
+
+
+
+/* PRESENTATION */
+#presentation {
+    background-color: #EDEDF4;
+    margin-top: 17px;
+    margin-bottom: 2px;
+    text-align: justify;
+}
+
+
+
+
+/* TAILLE AFFICHE */
+
+#film {
+    width: 29%;
+}
+
+
+
+
+/* TEXTE FILMS */
+article p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-bottom: 30px;
+    
+}
+
+
+    
+
+
+/* MISE EN FORME BOUTON "JE M'INSCRIS" */
+
+#bouton {
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 6%;
+
+}
+
+
+
+
+
+/* BOUTON FORMULAIRE */
+
+#btnform {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+button {
+    padding: 11px 49px;
+}
+
+
+
+
+    
+/* MISE EN FORME BAS DE PAGE */
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+footer a {
+    color: white;
+}
